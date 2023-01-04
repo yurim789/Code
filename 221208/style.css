@@ -1,0 +1,35 @@
+.inline {border-top:1px solid brown;
+border-bottom:1px solid brown;
+border-left:1px solid yellow;
+border-right:1px solid yellow;
+margin-right:10px;}
+
+.block1 {border-top:2px solid green;
+border-bottom:2px solid green;
+margin-top:10px;}
+.block2 {border-top:2px solid blue;
+border-bottom:2px solid blue;
+margin-top:10px;}
+.block3 {border-top:2px solid darkkhaki;
+border-bottom:2px solid darkkhaki;
+margin-top:10px;}
+
+.border {
+/* margin-top:20px; */
+border-top:5px solid pink;}
+
+.margin-b {margin-bottom:30px;}
+
+.color1{color:green}
+.color2{color:blue}
+.color3{color:darkkhaki}
+.background1{background-color: green;}
+.background2{background-color: blue;}
+.background3{background-color: darkkhaki;}
+
+ol, ul {list-style:none;}
+
+.기매용 {width:200px;}
+.메롱 {width:300px;}
+
+img {border:3px solid gold}

@@ -1,0 +1,26 @@
+.김애옹 {width:200px;}
+.농담곰 {width:150px;}
+
+.여기 {color:black; text-decoration:underline;}
+
+a {text-decoration: none}
+.under {text-decoration:underline}
+
+.네이버 {width: 200px;
+  box-shadow : 10px 10px 10px #999;
+  text-align: center;
+  border-radius: 20px;
+  border-style:solid; border-color:black; border-width:1px;
+  margin-bottom: 50px;}
+.구글 {width:200px; height:250px;
+  box-shadow:10px 10px 10px #999;
+  border-radius:20px;
+  border-style:solid; border-color:black; border-width:1px;
+  text-align:right}
+
+.네이버, .구글 {width: 700px;}
+.txt-right {text-align:center}
+.img-center {text-align:center}
+.link-prac {width:600px; height:600px;
+border-radius:100;
+margin: 0 auto}
