@@ -1,0 +1,32 @@
+.네이버 {color:green;
+text-decoration: none;
+font-size:30px;}
+.구글 {color:blue;
+text-decoration:none;}
+.img img {width:200px;
+border-radius:20px}
+
+.center {width:300px;
+margin: 0 auto;
+text-align:center;}
+.하이볼 {width:300px;
+border-radius:50px;}
+.center a {color:blue;
+font-size:20;
+text-decoration:none;}
+
+.target {width:400px;
+margin: 0 auto;
+text-align:center;}
+.target h3 {color:darkmagenta;
+background-color:plum;
+border-radius:20px;
+text-align:center;
+margin: 0 auto;}
+.target a {text-decoration:none;
+color:burlywood;
+font-size:40px;}
+
+.김애옹 img {width:200px;
+margin: 0 auto;
+border-radius:20px;}

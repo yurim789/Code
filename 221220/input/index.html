@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="정보">
+  <meta name="keywords" content="검색키워드">
+  <meta name="author" content="유림">
+  <title>Input</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="join.php" method="post">
+        <label for="id">아이디
+          <input id="id" type="text" name="username" required>
+        </label>
+        <label>비밀번호
+          <input type="password" name="userpw" required>
+        </label>
+          <label>이름
+            <input type="text" name="username">
+          </label>
+          <label>이메일
+            <input type="email">
+          </label>
+
+          <select>
+            <optgroup label="Asia">
+              <option value="KOR">대한민국</option>
+              <option value="" disabled>북한</option>
+              <option value="">일본</option>
+              <option value="">중국</option>
+              <option value="">인도네시아</option>
+              <option value="">베트남</option>
+            </optgroup>
+
+            <optgroup label="Europe">
+              <option>독일</option>
+              <option>프랑스</option>
+              <option>영국</option>
+              <option>이탈리아</option>
+              <option>스페인</option>
+              <option>네덜란드</option>
+            </optgroup>
+
+            <optgroup label="America">
+              <option>미국</option>
+              <option>캐나다</option>
+              <option>멕시코</option>
+              <option>브라질</option>
+              <option>아르헨티나</option>
+            </optgroup>
+          </select>
+
+          <select name="year" id="year">
+          <script>
+            let year = new Date();
+            year = year.getFullYear();
+            for(i = 1900; i <= year; i++ ) {
+              $("#year").append("<option>" + i + "</option>")
+            }
+          </script>
+          </select>년     
+          
+
+          <select name="month" id="month">
+            <script>
+              for(i = 1; i <= 12; i++) {
+                $("#month").append("<option>" + i + "</option>")
+              }
+            </script>
+            </select>월
+
+          <select name="date" id="date">
+            <script>
+              for(i = 1; i <=31; i++) {
+                $("#date").append("<option>" + i + "</option>")
+              }
+            </script>        
+            </select>일
+
+            <input type="radio">남자
+            <input type="radio">여자
+            
+            <input type="range" min="200" max="2000" step="200">
+
+            <label>취미
+              <input type="checkbox" checked>양궁
+              <input type="checkbox">잠자기
+              <input type="checkbox">영화보기
+              <input type="checkbox">게임
+            </label>
+
+            <label>파일업로드
+              <input type="file">
+            </label>
+
+            <label>
+              자기소개서
+              <textarea placeholder="400자 미만으로 작성하시오."></textarea>
+            </label>
+
+            <input type="submit">
+            <input type="reset">
+    </form>     
+  </div>
+</body>
+</html>

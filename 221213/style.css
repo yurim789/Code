@@ -1,0 +1,48 @@
+a {text-decoration:none;}
+
+.mail-box {width:400px;
+margin: 0 auto;
+text-align:center;
+text-decoration:none;}
+.green {color:green;}
+.mail-box img {width:200px;}
+
+.tel-box {width:400px;
+margin: 0 auto;
+text-align:center;}
+.red {color:red;}
+.tel-box img {margin-top:20px;
+width:180px;}
+.blue {color:blue;}
+
+.농담곰 img {width:500px;
+margin: 0 auto;
+text-align:center;
+border-radius: 20px;
+margin:30px;}
+.농담곰 {border: 1px solid;
+margin: 50px auto;
+text-align:center;
+width:600px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px #666;
+padding:30px;
+background-color:pink;}
+
+.김애옹 img {width:500px;
+margin: 0 auto;
+text-align:center;
+border-radius: 20px;
+margin:30px;}
+.back {color:white;
+background-color:royalblue;
+border-radius:20px;
+border:2px solid blue;}
+.김애옹 {border: 1px solid;
+margin: 50px auto;
+text-align:center;
+width:600px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px #666;
+padding:30px;
+background-color:skyblue;}

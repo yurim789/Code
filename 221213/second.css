@@ -1,0 +1,9 @@
+.txt {font-size:50px;
+color:yellowgreen;}
+.p-move {width :300px;
+height:300px;
+border:1px solid #777;
+border-radius: 0 0 20px 20px;
+box-shadow:5px 5px 5px #000;}
+
+.p-move a {display:block;}

@@ -1,0 +1,17 @@
+body {
+  background-color: black;}
+
+.google img {width:400px;} 
+.google {
+  width:500px;
+  height:500px;
+  margin:0 auto;
+  text-align:center;
+  padding-top:150px;
+  }
+.open-google {
+  background-color: white;
+  padding:20px;
+  border-radius: 30px;
+  font-size: 18px;
+}
