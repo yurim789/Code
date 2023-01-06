@@ -1,0 +1,54 @@
+/* * {
+  margin: 0 auto;
+  padding: 0 auto;
+} */
+
+body {
+  background-color: black;
+}
+.wrapper {
+  position:relative;
+}
+.card-container {
+  width:350px;
+  height:200px;
+  background: linear-gradient(45deg,blue -10%,rgb(236, 48, 180));
+  border-radius: 15px;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.chip {
+  width:40px;
+  margin-left:-210px;
+  margin-top:10px;
+}
+.map {
+  width:95%;
+}
+.visa {
+  width:60px;
+  margin-left:25px;
+  margin-top:15px;
+}
+
+.card {
+  position:relative;
+  display:flex;
+}
+.number {
+  position:absolute;
+  top:50%;
+  text-align: center;
+  color:white;
+  font-size: 22px;
+  display:flex;
+}
+
+.number p {
+  font-size:23px;
+  line-height:72px;
+  margin-inline: 18px;
+}
